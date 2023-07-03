@@ -1,5 +1,0 @@
-a=str(input())
-b=str(input())
-d=len(a+b)
-print(a,b)
-print(d+1)
