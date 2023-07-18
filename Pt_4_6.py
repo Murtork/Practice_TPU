@@ -1,5 +1,5 @@
-alfavit_h =  'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
-alfavit_l =  'adcdefghijklmnopqrstuvwxyzadcdefghijklmnopqrstuvwxyz'
+alfavit_h = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
+alfavit_l = 'adcdefghijklmnopqrstuvwxyzadcdefghijklmnopqrstuvwxyz'
 smeshenie = int(13)
 message = input("Сообщение для шифровки: ")
 itog = ''
