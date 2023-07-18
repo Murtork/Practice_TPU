@@ -7,7 +7,7 @@ def find_p(mes):
                 answer.append(subst)
     return answer
 
+
 st = input("Строка: ")
 palind = find_p(st)
 print("Палиндромы:", palind)
-
