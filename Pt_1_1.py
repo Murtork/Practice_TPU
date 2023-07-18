@@ -1,2 +1,2 @@
-name=str(input("Введите имя:"))
+name = str(input("Введите имя:"))
 print(len(name))
