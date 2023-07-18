@@ -1,4 +1,9 @@
 import random
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 def findout(answer):
     print("Попробуй угадать цвет который я загадал: ")
     ans = str(input())
@@ -22,6 +27,10 @@ def findout(answer):
             print("Цвет начинается на букву Р")
             findout(answer)
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 a = random.randint(1, 5)
 print(a)
 if a == 1:
