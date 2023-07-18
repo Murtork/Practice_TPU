@@ -10,6 +10,7 @@ def find_paths(dictt, start, final_point, way):
         ways.extend(new_paths)
     return ways
 
+
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -17,7 +18,7 @@ graph = {
     'D': [],
     'E': ['F'],
     'F': []
-    }
+}
 start = 'A'
 end = 'F'
 path = []
