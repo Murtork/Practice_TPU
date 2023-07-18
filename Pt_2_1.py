@@ -1,3 +1,4 @@
+import random
 def findout(answer):
     print("Попробуй угадать цвет который я загадал: ")
     ans = str(input())
@@ -20,9 +21,6 @@ def findout(answer):
         if answer == "Розовый":
             print("Цвет начинается на букву Р")
             findout(answer)
-
-
-import random
 
 a = random.randint(1, 5)
 print(a)
