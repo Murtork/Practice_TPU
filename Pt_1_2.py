@@ -1,5 +1,5 @@
-a=str(input())
-b=str(input())
+a=str(input("Введите имя: "))
+b=str(input("Введите фамилию: "))
 d=len(a+b)
-print(a,b)
+print(a, b)
 print(d+1)
