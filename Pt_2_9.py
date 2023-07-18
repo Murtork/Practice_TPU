@@ -1,6 +1,6 @@
-a=int(input())
-a=str(a)
-mas=[]
+a = int(input())
+a = str(a)
+mas = []
 for i in a:
     mas.append(i)
 mas.reverse()
