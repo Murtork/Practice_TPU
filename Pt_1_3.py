@@ -1,25 +1,25 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a = int(input("Число а: "))
+b = int(input("Число b: "))
+c = int(input("Число c: "))
 
-if ((a>b) & (a>c)):
-    if b>c:
+if (a > b) & (a > c):
+    if b > c:
         print("a - самое большое число")
-        print(a,b,c)
+        print(a, b, c)
     else:
         print("a - самое большое число")
-        print(a,c,b)
-if ((c>b) & (c>a)):
-    if b>a:
+        print(a, c, b)
+if (c > b) & (c > a):
+    if b > a:
         print("c - самое большое число")
-        print(c,b,a)
+        print(c, b, a)
     else:
         print("c - самое большое число")
-        print(c,a,b)
-if ((b>c) & (b>a)):
-    if c>a:
+        print(c, a, b)
+if (b > c) & (b > a):
+    if c > a:
         print("a - самое большое число")
-        print(b,c,a)
+        print(b, c, a)
     else:
         print("a - самое большое число")
-        print(b,a,c)
+        print(b, a, c)
