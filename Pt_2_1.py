@@ -1,5 +1,6 @@
 import random
 
+
 def findout(answer):
     print("Попробуй угадать цвет который я загадал: ")
     ans = str(input())
