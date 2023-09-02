@@ -35,6 +35,6 @@ def get_top_songs(url):
 artist_url = input("Ссылка на исполнителя в Яндекс.Музыке: ")
 top_songs = get_top_songs(artist_url)
 if top_songs:
-    print("Топ 10 песен:")
+    print("Топ 5 песен:")
     for song in top_songs:
         print(song)
